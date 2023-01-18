@@ -1,10 +1,11 @@
 # ffplay
-### Single C file, cropped version of official ffplay, updated to ffmpeg 5.1.2
-### 单个 C 文件，官方 ffplay 的裁剪版，更新到 ffmpeg 5.1.2
 
-During playback, you can use keyboard to control the process:
-播放中，可以用键盘控制播放过程：
-
+Single C file, cropped version of official ffplay, updated to ffmpeg 5.1.2<br>
+单个 C 文件，官方 ffplay 的裁剪版，更新到 ffmpeg 5.1.2<br>
+<br>
+During playback, you can use keyboard to control the process:<br>
+播放中，可以用键盘控制播放过程：<br>
+<br>
 q, ESC              quit
 f                   toggle full screen
 p, SPC              pause
