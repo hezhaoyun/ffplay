@@ -642,7 +642,11 @@ static int decoder_decode_frame(Decoder *d, AVFrame *frame, AVSubtitle *sub)
                     av_packet_move_ref(&d->pkt, &pkt);
                 }
             }
-            av_packet_unref(&pkt);
+            
+            if (pkt.size)
+            {
+                av_packet_unref(&pkt);
+            }
         }
     }
 }
