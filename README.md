@@ -1,7 +1,6 @@
 # ffplay
-Single C file, cropped version of official ffplay, updated to ffmpeg 5.1.2
-
-单个 C 文件，官方 ffplay 的裁剪版，更新到 ffmpeg 5.1.2
+## Single C file, cropped version of official ffplay, updated to ffmpeg 5.1.2
+## 单个 C 文件，官方 ffplay 的裁剪版，更新到 ffmpeg 5.1.2
 
 While playing, you may use the following keys of ffplay to control the playback program:
 播放过程中，你可能使用 ffplay 的以下键来控制播放程序：
