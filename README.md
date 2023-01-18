@@ -5,7 +5,7 @@ Single C file, cropped version of official ffplay, updated to ffmpeg 5.1.2<br>
 <br>
 During playback, you can use keyboard to control the process:<br>
 播放中，可以用键盘控制播放过程：<br>
-<br>
+
 | Key | Function |
 | --- | --- |
 | q, ESC | quit |
@@ -25,7 +25,7 @@ During playback, you can use keyboard to control the process:<br>
 | right mouse click | seek to percentage in file corresponding to fraction of width |
 | left double-click | toggle full screen |
 
-
+<br>
 Refer<br>
 参考<br>
 <br>
