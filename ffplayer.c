@@ -3653,7 +3653,7 @@ static void seek_chapter(VideoState *is, int incr)
 static void event_loop(VideoState *cur_stream)
 {
     SDL_Event event;
-    double incr, pos, frac;
+    double incr, pos;
 
     while (1)
     {
@@ -3879,7 +3879,7 @@ static void event_loop(VideoState *cur_stream)
                 int tmm = (tns % 3600) / 60;
                 int tss = (tns % 60);
 
-                frac = x / cur_stream->width;
+                double frac = x / cur_stream->width;
 
                 int ns = frac * tns;
                 int hh = ns / 3600;
