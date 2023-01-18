@@ -25,3 +25,8 @@ During playback, you can use keyboard to control the process:<br>
 | right mouse click | seek to percentage in file corresponding to fraction of width |
 | left double-click | toggle full screen |
 
+
+Refer<br>
+参考<br>
+<br>
+https://github.com/compilelife/aplayer<br>
