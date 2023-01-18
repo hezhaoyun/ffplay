@@ -4032,9 +4032,6 @@ int main(int argc, char **argv)
     av_log_set_flags(AV_LOG_SKIP_REPEATED);
     av_log_set_level(AV_LOG_DEBUG);
 
-    /* register all codecs, demux and protocols */
-    avformat_network_init();
-
     signal(SIGINT, sigterm_handler);  /* Interrupt (ANSI).    */
     signal(SIGTERM, sigterm_handler); /* Termination (ANSI).  */
 
