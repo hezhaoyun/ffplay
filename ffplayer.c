@@ -27,7 +27,7 @@
 
 #include <assert.h>
 
-const char program_name[] = "aplayer";
+const char program_name[] = "ffplayer";
 const int program_birth_year = 2018;
 
 #define MAX_QUEUE_SIZE (15 * 1024 * 1024)
@@ -266,7 +266,7 @@ typedef struct VideoState
 /*原版ffplay中的控制选项，这里直接写默认值*/
 static AVInputFormat *file_iformat = NULL;
 static const char *input_filename = NULL;
-static const char *window_title = "aplayer";
+static const char *window_title = "ffplayer";
 static int default_width = 640;
 static int default_height = 480;
 static int screen_width = 0;
