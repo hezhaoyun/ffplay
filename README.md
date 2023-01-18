@@ -6,7 +6,7 @@ Single C file, cropped version of official ffplay, updated to ffmpeg 5.1.2<br>
 During playback, you can use keyboard to control the process:<br>
 播放中，可以用键盘控制播放过程：<br>
 
-| Key | Function |
+| Key  | Function  |
 | --- | --- |
 | q, ESC | quit |
 | f | toggle full screen |
@@ -28,5 +28,4 @@ During playback, you can use keyboard to control the process:<br>
 <br>
 Refer<br>
 参考<br>
-<br>
 https://github.com/compilelife/aplayer<br>
